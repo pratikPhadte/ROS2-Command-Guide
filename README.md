@@ -124,12 +124,30 @@ This file contains commands for ROS2 along with a brief description
   finder. Each node can send and receive data from other nodes via topics, 
   services, actions, or parameters.
   ![image](https://github.com/pratikPhadte/ROS2-Command-Guide/assets/55589461/fa333a21-2818-4c9c-96b4-769239990c67)
-*Topic meaning
+* Topic meaning
 ![image](https://github.com/pratikPhadte/ROS2-Command-Guide/assets/55589461/a55f75f8-8c48-45be-a525-66cf5671fe67)
 A node may publish data to any number of topics and simultaneously have subscriptions to any number of topics.
 ![image](https://github.com/pratikPhadte/ROS2-Command-Guide/assets/55589461/d1aee4bb-61ac-41ea-80fd-0f454de9275c)
 
-
+* To run rqt_graph, open a new terminal and enter the command:
+  You can also open rqt_graph by opening rqt and selecting Plugins > 
+  Introspection > Node Graph.
+  ```sh
+  rqt_graph
+  ```
+* To see the data being published on a topic, use:
+  ```sh
+  ros2 topic echo <topic_name>
+  ```
+* 
+  ```sh
+  
+  ```
+* 
+  ```sh
+  
+  ```
+* 
   ```sh
   
   ```

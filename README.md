@@ -111,7 +111,7 @@ This file contains commands for ROS2 along with a brief description
   ros2 topic list
   ros2 service list
   ros2 action list
- ```
+  ```
 * To run rqt, When running rqt for the first time, the window will be blank. No 
    worries; just select Plugins > Services > Service Caller from the menu bar at 
    the top. After making changes, to call the service by clicking the Call button 
@@ -124,6 +124,11 @@ This file contains commands for ROS2 along with a brief description
   finder. Each node can send and receive data from other nodes via topics, 
   services, actions, or parameters.
   ![image](https://github.com/pratikPhadte/ROS2-Command-Guide/assets/55589461/fa333a21-2818-4c9c-96b4-769239990c67)
+*Topic meaning
+![image](https://github.com/pratikPhadte/ROS2-Command-Guide/assets/55589461/a55f75f8-8c48-45be-a525-66cf5671fe67)
+A node may publish data to any number of topics and simultaneously have subscriptions to any number of topics.
+![image](https://github.com/pratikPhadte/ROS2-Command-Guide/assets/55589461/d1aee4bb-61ac-41ea-80fd-0f454de9275c)
+
 
   ```sh
   

@@ -86,41 +86,49 @@ This is a command pallette to easily get started with ROS2 commands
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-### Built With
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+THis file contains commands for ROS2 along with a breif description
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Commands
 
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+* Sourcing ROS2 in every command terminal you open
   ```sh
-  npm install npm@latest -g
+  source /opt/ros/humble/setup.bash
+  ```
+* list all packages of ROS2
+  ```sh
+  ros2 pkg list 
+  ```
+* list all executable packages
+  ```sh
+  ros2 pkg executables 
+  ```
+* list all nodes
+  ```sh
+  ros2 node list
+  ```
+  ```
+ros2 topic list
+  ```
+ ```
+ros2 service list
+ ```
+ ```
+ros2 action list
+ ```
+* 
+  ```sh
+  ros2 node list
+  ```
+* 
+  ```sh
+  
+  ```
+* 
+  ```sh
+  
   ```
 
 ### Installation

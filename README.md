@@ -105,22 +105,16 @@ THis file contains commands for ROS2 along with a breif description
   ```sh
   ros2 pkg executables 
   ```
-* list all nodes
+* list all nodes or topics etc
   ```sh
   ros2 node list
-  ```
-  ```
-ros2 topic list
-  ```
+  ros2 topic list
+  ros2 service list
+  ros2 action list
  ```
-ros2 service list
- ```
- ```
-ros2 action list
- ```
-* 
+* To run rqt, When running rqt for the first time, the window will be blank. No worries; just select Plugins > Services > Service Caller from the menu bar at the top. After making changes, to call the service by clicking the Call button on the upper right side of the rqt window.
   ```sh
-  ros2 node list
+  rqt
   ```
 * 
   ```sh

@@ -1,4 +1,4 @@
-# ROS2-Command-Guide
+![Nodes-TopicandService](https://github.com/pratikPhadte/ROS2-Command-Guide/assets/55589461/d9bdd429-efa8-4e28-9d2d-6b308f913459)# ROS2-Command-Guide
 This is a command pallette to easily get started with ROS2 commands 
 
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
@@ -87,7 +87,7 @@ This is a command pallette to easily get started with ROS2 commands
 ## About The Project
 
 
-THis file contains commands for ROS2 along with a breif description
+This file contains commands for ROS2 along with a brief description
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,12 +112,19 @@ THis file contains commands for ROS2 along with a breif description
   ros2 service list
   ros2 action list
  ```
-* To run rqt, When running rqt for the first time, the window will be blank. No worries; just select Plugins > Services > Service Caller from the menu bar at the top. After making changes, to call the service by clicking the Call button on the upper right side of the rqt window.
+* To run rqt, When running rqt for the first time, the window will be blank. No 
+   worries; just select Plugins > Services > Service Caller from the menu bar at 
+   the top. After making changes, to call the service by clicking the Call button 
+   on the upper right side of the rqt window.
   ```sh
   rqt
   ```
+* Each node in ROS should be responsible for a single, modular purpose, e.g. 
+  controlling the wheel motors or publishing the sensor data from a laser range- 
+  finder. Each node can send and receive data from other nodes via topics, 
+  services, actions, or parameters.
+  ![image](https://github.com/pratikPhadte/ROS2-Command-Guide/assets/55589461/fa333a21-2818-4c9c-96b4-769239990c67)
 
-* 
   ```sh
   
   ```
